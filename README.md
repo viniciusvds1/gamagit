@@ -26,3 +26,9 @@ $ npm start
 
 Buscar repositórios de usuários do GitHub
 
+
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/79718942/133003004-fb419c0e-60b4-4a95-8951-baeaaa454d4a.gif)
+
+
