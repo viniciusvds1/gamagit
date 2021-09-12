@@ -1,0 +1,38 @@
+.header p{
+  animation-name: slidein 3s ease infinite;
+}
+
+
+
+.seta-animation{
+   animation:is-bouncing  1s ease alternate-reverse infinite ;
+   display: grid;
+   place-items: center;
+   height: 150px;
+}
+
+.seta-animation img{
+   width: 50px;
+}
+
+
+/* diretivas */
+
+@keyframes is-bouncing {
+
+   to{
+      transform: translateY(30px);
+   }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

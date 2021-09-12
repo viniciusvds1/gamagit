@@ -3,6 +3,10 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import * as S from './styled';
 import {useHistory} from 'react-router-dom';
+import Hero from './Hero';
+import Header from './Header';
+import './header.css';
+
 function App(props) {
   const history = useHistory();
   const [usuario, setUsuario] = useState('');
@@ -19,13 +23,21 @@ function App(props) {
       history.push('/repositories')
     }).catch(Error =>{
       setErro(true)
-    
+
     });
-    
+
   }
   return (
+
+
     <S.HomeContainer>
+        <Header/>
+        <Hero/>
+        <div className="seta-animation">
+            <img src="img/seta.png" className="img" />
+        </div>
       <S.Content>
+
       <S.Input className="usuarioInput" placeholder="Usuário" value={usuario} onChange={e => setUsuario(e.target.value)} />
       <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
       </S.Content>

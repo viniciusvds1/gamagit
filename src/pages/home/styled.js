@@ -28,7 +28,7 @@ export const Input = styled.input`
    }
 `
 
-export const Button = styled.button` 
+export const Button = styled.button`
    height: 1.5rem;
    border: 1px solid #000;
    background: #000;
