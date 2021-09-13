@@ -1,6 +1,6 @@
 ### Programa para buscar repositórios de usuários do GitHub
 
-## 🚀 Tecnoligia
+## 🚀 Tecnologia
 
 Tecnologias usadas para criação deste projeto.
 
