@@ -14,7 +14,18 @@
 .seta-animation img{
    width: 50px;
 }
+*{
+font-family: sans-serif;
+  text-align: center;
+}
 
+.animationGit{
+      width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -1500px;
+    padding-bottom: -1500;
+}
 
 /* diretivas */
 

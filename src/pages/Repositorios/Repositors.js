@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import * as S from './styled';
 import { useHistory } from 'react-router-dom';
+import SearchAppBar from './search-repositors';
 export default function Respositories(){
     const history = useHistory();
     const [repositories, setRepositories] = useState([]);
@@ -16,8 +17,11 @@ export default function Respositories(){
     }, []);
     return(
         <>
+        <SearchAppBar>
+         <S.Title>Repositorios</S.Title>
+        </SearchAppBar>
         <S.Container>
-        <S.Title>Repositorios</S.Title>
+
         <S.List>
            {
                repositories.map(repository => {

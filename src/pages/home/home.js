@@ -3,6 +3,8 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import * as S from './styled';
 import {useHistory} from 'react-router-dom';
+import Lottie from "lottie-react";
+import gitHubAnimation from "./animation.json";
 import Hero from './Hero';
 import Header from './Header';
 import './header.css';
@@ -31,6 +33,10 @@ function App(props) {
 
 
     <S.HomeContainer>
+      <div className="animationGit">
+          <Lottie animationData={gitHubAnimation} />
+
+      </div>
         <Header/>
         <Hero/>
         <div className="seta-animation">
