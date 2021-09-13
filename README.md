@@ -16,7 +16,7 @@ $ cd gamagit
 ```
 
 ```bash
-# Usar comando npm install para biuldar o projeto
+# Usar comando npm install para instalar as dependencias do projeto
 $ npm install
 
 # Usar o comando npm start para iniciar o projeto
